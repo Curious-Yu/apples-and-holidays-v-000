@@ -83,5 +83,8 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_name.each do |name, supply|
       if supply.include?("BBQ")
         holiday_symbols << name
+      end
+    end
+  end
 
 end
